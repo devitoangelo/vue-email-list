@@ -10,9 +10,10 @@
 
     <div id="app">
 
-        <ul style="list-style: number;">
+        <ul style="list-style: number;" v-if="randomEmail.length == 10">
             
             <li v-for="email in randomEmail">{{email}} <hr> </li>
+        
     
         </ul>
 
